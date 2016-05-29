@@ -27,11 +27,11 @@
         <table>
         <tr><th>Numero</th><th>Nombre</th><th>Edad</th><th>Tipo</th><th>Habitación</th><td> <a href="accesoadmin.jsp"> Volver </a></td></tr>
         <form method="get" action="grabaMonstruo.jsp">
-          <tr><td><input type="text" name="MonstruoID" size="5"></td>
+          <tr><td><input type="number" min="1500" name="MonstruoID" size="5"></td>
               <td><input type="text" name="Nombre" size="30"></td>
-              <td><input type="text" name="Edad" size="5"></td>
+              <td><input type="number" min="0" name="Edad" size="5"></td>
               <td><input type="text" name="Tipo" size="20"></td>
-              <td><input type="text" name="Habitacion" size="5"></td>
+              <td><input type="number" min="100" name="Habitacion" size="5"></td>
               <td><button type="submit" value="Añadir">Añadir</button></td></tr>           
         </form>      
         </table>

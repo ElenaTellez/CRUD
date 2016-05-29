@@ -1,13 +1,4 @@
-<%-- 
-2. Mejora el programa anterior de tal forma que se puedan dar de alta nuevos
-   usuarios para acceder a la aplicación. Si se introduce un nombre de usuario
-   que no sea el administrador (admin) y una contraseña correcta, la aplicación
-   funcionará exactamente igual que el ejercicio anterior. Si se introduce el
-   usuario "admin" y la contraseña correcta, la aplicación entra en la gestión
-   de usuarios donde se podrán dar de alta nuevos usuarios indicando nombre de
-   usuario y contraseña. No puede haber dos nombres de usuario iguales aunque sí
-   puede haber claves repetidas.
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
